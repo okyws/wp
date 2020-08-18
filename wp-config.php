@@ -65,6 +65,8 @@ define( 'NONCE_SALT',       '?B:-efM*2n~Kz@ ?QE!Oqv*L/i(wP9PF)[Kw4QtP7W%h]P,jl&.
  */
 $table_prefix = 'wp_';
 
+define( 'DISALLOW_FILE_EDIT', true );
+
 /**
  * For developers: WordPress debugging mode.
  *
@@ -79,6 +81,7 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 
+define( 'WP_CACHE', true ); // Added by Hummingbird
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */

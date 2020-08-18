@@ -5,11 +5,11 @@
 # Setiap perubahan pada arahan di antara penanda berikut akan ditimpa.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /wordpress/
+RewriteBase /wp/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /wordpress/index.php [L]
+RewriteRule . /wp/index.php [L]
 </IfModule>
 
 # END WordPress
